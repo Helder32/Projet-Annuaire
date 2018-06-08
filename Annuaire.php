@@ -44,7 +44,7 @@ while($result=$cpt->fetch())
 }	
 
 //-----------------------------------------------------------------------------------------------------
-echo "<h1>Contacts avec compte Gmail<h1>";
+echo "<h1>Contacts avec compte Gmail</h1>";
 //-----------------------------------------------------------------------------------------------------
 $email = $bdd->query('SELECT * FROM contacts WHERE email LIKE "%gmail.com"');
 
